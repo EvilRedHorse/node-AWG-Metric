@@ -20,9 +20,13 @@
     "type": "git",
     "url": "git+https://github.com/EvilRedHorse/node-AWG-Metric.git"
   },
-  "keywords": ["AWG","Metric","Calculator"],
+  "keywords": [
+    "AWG",
+    "Metric",
+    "Calculator"
+  ],
   "author": "EvilRedHorse",
-  "license": "GPLv3",
+  "license": "GPL-3.0-only WITH Classpath-exception-2.0",
   "bugs": {
     "url": "https://github.com/EvilRedHorse/node-AWG-Metric/issues"
   },
