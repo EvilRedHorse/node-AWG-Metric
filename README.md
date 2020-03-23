@@ -13,6 +13,7 @@ sudo dnf -y install jq R
 - [x] create 1 MiB cache folder, update permissions, touch .txt .json
 ```
 cd test
+mkdir cache
 sudo mount -t tmpfs -o size=1M,mode=0755 tmpfs cache
 sudo chmod a+rw cache
 touch cache/awg.json
