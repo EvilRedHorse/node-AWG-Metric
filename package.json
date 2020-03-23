@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd test && node ../testStart.js",
-    "install": "touch test/cache/area.txt"
+    "install": "mkdir test/cache && touch test/cache/diameter.txt && touch test/cache/area.txt && touch test/cache/awg.json"
   },
   "repository": {
     "type": "git",
