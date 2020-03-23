@@ -1,0 +1,30 @@
+{
+  "name": "node-AWG-Metric",
+  "version": "1.0.0",
+  "description": "AWG to Metric Wire Conversion in R, with an Express Node.js Front-end",
+  "main": "testStart.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd test && node ../testStart.js",
+    "install": "touch test/cache/area.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvilRedHorse/node-AWG-Metric.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvilRedHorse/node-AWG-Metric/issues"
+  },
+  "homepage": "https://github.com/EvilRedHorse/node-AWG-Metric#readme"
+}

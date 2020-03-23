@@ -1,13 +1,16 @@
 # node-AWG-Metric
 AWG to Metric Wire Conversion in R, with an Express Node.js Front-end
 
+- [x] Install system requirements
+```
+sudo dnf -y install git npm jq R
+```
 
-- [x] clone to directory and install requirements
+- [x] clone to directory and install
 ```
 git clone https://github.com/EvilRedHorse/node-AWG-Metric.git
 cd node-AWG-Metric
-npm install express shelljs
-sudo dnf -y install jq R
+npm install
 ```
 
 - [x] create 1 MiB cache folder, update permissions, touch .txt .json
@@ -24,6 +27,11 @@ touch cache/area.txt
 - [x] start node instance on port 3031
 ```
 node ../testStart.js
+```
+or
+```
+cd ../
+npm start
 ```
 
 - [x] open html browser and enter url for Web-UI
