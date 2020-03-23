@@ -10,18 +10,32 @@ npm install express shelljs
 sudo dnf -y install jq R
 ```
 
-- [x] start node instance on port 3031
-
+- [x] create 1 MiB cache folder, update permissions, touch .txt .json
 ```
 cd test
+sudo mount -t tmpfs -o size=1M,mode=0755 tmpfs cache
+sudo chmod a+rw cache
+touch cache/awg.json
+touch cache/diameter.txt
+touch cache/area.txt
+```
+
+- [x] start node instance on port 3031
+```
 node ../testStart.js
 ```
 
+- [x] open html browser and enter url for Web-UI
+```
+http://127.0.0.1:3031
+```
 
 ## USAGE:
 
-#### send AWG to R script, writes JSON to output output
+#### send AWG to R script, writes JSON to output
 `R/awg-metric.r [AWG]`
+
+
 
 
 
