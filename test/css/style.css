@@ -11,9 +11,9 @@
   padding: 0px 0px 0px 0px;
 }
 .figure-test {
+  z-index: 3;
   font-size: 1em;
   height: auto;
-  z-index: 3;
   padding: 17px 14px 17px 14px;
 }
 .embed {

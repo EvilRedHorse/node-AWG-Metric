@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- standard head -  -->
+<!-- standard head -->
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">    
@@ -13,29 +13,26 @@
   <link rel="shortcut icon" type="image/png" href="Tvarnene_droty_2.png">
 </head>
 
-<!-- main view --><main>
-<!-- button/form to refresh (divs) -->
+<!-- main view -->
+<main>
+
 <header>  
-<!--  <form class="button-pad" method="post" action="/"><input class="button" type="submit" value="Refresh"></form> -->
+<!-- blank header -->
 </header>
 
-<!-- display figures  -->
 <section>
-
+<!-- display figures within section  -->
 <figure class="mySlides" >
-
   <form method="post" action="/test">
-
   <label for="fnum">AWG:</label><br>
   <input  class="figure-test" type="numbers" id="fnum" name="fnum" value="" required="true" ><br><br>
-<!--  <label for="fnum2">Intermediary Precision:</label><br>
-  <input class="figure-test" type="numbers" id="fnum2" name="fnum2" value="10" required="true" ><br><br> -->
   <input class="figure-test"  type="submit" value="Submit">
   <input type="reset">
   </form>
 </figure>
 
 <figure>
+  <!-- display figcaption within figure  -->
   <figcaption class="caption">diameter (mm)</figcaption>
   <embed title="diameter (mm)" class="embed" id="embed" src="/cache/diameter.txt" type="text/plain">
 </figure>
@@ -44,14 +41,6 @@
   <figcaption class="caption">area (mm<sup>2</sup>)</figcaption>
   <embed title="area (mm squared)" class="embed" id="embed2" src="/cache/area.txt" type="text/plain">
 </figure>
-
-<!-- <figure class="mySlides" ><figcaption class="caption">""</figcaption><form  method="post" action="/test"><input id="test"class="figure-test" src="/images/test.svg?" type="image" value="test"></form></figure> -->
-
 </section>
-
-<!-- script to refresh (.svg)
-<script>
-window.onload=function(){embed=document.getElementById('embed'); setInterval(function(){embed.src=embed.src.replace(/\?.*/,function(){return'?'+new Date()})},5000)
-</script>   -->
 
 </main>
