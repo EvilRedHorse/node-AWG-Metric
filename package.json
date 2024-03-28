@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.19.2",
     "shelljs": "^0.8.5"
   },
   "devDependencies": {},
